@@ -22,5 +22,5 @@ root = tkinter.Tk()
 root.title('TO-DO アプリ')
 root.geometry('400x650+400+100')
 root.resizable
-app.mainloop()
+root.mainloop()
 
