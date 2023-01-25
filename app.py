@@ -16,6 +16,11 @@ class Application(tkinter.Frame):
         quit_btn['text'] = '閉じる'
         quit_btn['command'] = self.root.destroy
         quit_btn.pack(side='bottom')
+        #top bar
+        top_image = tkinter.Label(self)
+        top_image["image"] = PhotoImage(file="image/topbar.png")
+        top_image.pack()
+
 
 
 root = tkinter.Tk()
