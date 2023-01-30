@@ -13,6 +13,17 @@ task_list = []
 Image_icon = PhotoImage(file="image/task.png")
 root.iconphoto(False,Image_icon)
 
-#topcorder
+#top bar
+TopImage = PhotoImage(file="image/topbar.png")
+Label(root,image=TopImage).pack()
+
+dockImage = PhotoImage(file="image/dock.png")
+Label(root,image=dockImage,bg="#32405b").place(x=30,y=25)
+
+noteImage=PhotoImage(file="Image/task.png")
+Label(root,image=noteImage,bg="#32405b").place(x=30,y=25)
+
+heading=Label(root,text="ALL TASK", font="arial 20 bold", fg="white", bg="#32405b")
+heading.place(x=130,y=20)
 
 root.mainloop()
