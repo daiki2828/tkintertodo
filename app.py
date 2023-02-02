@@ -18,7 +18,7 @@ class Application(tkinter.Frame):
         quit_btn.pack(side='bottom')
         #top bar
         top_image = tkinter.Label(self)
-        top_image["image"] = PhotoImage(file="image/topbar.png")
+        top_image["image"] = tkinPhotoImage(file="image/topbar.png")
         top_image.pack()
 
 
