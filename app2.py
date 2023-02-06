@@ -27,12 +27,12 @@ heading=Label(root,text="ALL TASK", font="arial 20 bold", fg="white", bg="#32405
 heading.place(x=130,y=20)
 
 #main
-frame = Frame(root, width=400,height=50,bg="white")
+frame = Frame(root,width=400,height=50,bg="white")
 frame.place(x=0,y=180)
 
 task = StringVar()
-task_entry = Entry(frame,width=30,font="arial 20",bd=0)
-task_entry.place(x=15,y=10)
+task_entry = Entry(frame,width=18,font="arial 20",bd=0)
+task_entry.place(x=10,y=7)
 task_entry.focus()
 
 button = Button(frame, text="ADD", font="arial 20 bold", width=6, bg="#5a95ff", fg="#fff",bd=0)
